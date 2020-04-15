@@ -1,0 +1,33 @@
+# Project settings
+- Developer Tools
+    - Spring Boot DevTools
+    - Lombok
+- Web
+    - Spring web
+- Template Engines
+    - Thymeleaf
+- SQL
+    - Spring Data JPA
+    - MySQL Driver
+
+# Project Structure
+- src
+    - main
+        - java
+            - com.example.restapicrud
+                - ApiResponse
+                    - ApiResponse.java
+                - ToDoItem
+                    - Controller
+                        - BoardController.java
+                    - domain
+                        - entity
+                            - BoardEntity.java
+                            - TimeEntity.java
+                        - repository
+                            - BoardRepository.java
+                    - dto
+                        - BoardDto.java
+                    - service
+                        - BoardService.java
+                - RestapicrudApplication.java
